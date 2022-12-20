@@ -5,4 +5,3 @@
 tasks:
   - name: Dev Server
     init: npm install -D --yes
-    command: npm run dev
