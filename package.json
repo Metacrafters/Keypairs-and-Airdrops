@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@solana/web3.js": "^1.67.2",
-    "@types/node": "^18.0.6",
-    "node-fetch": "^3.2.6"
+    "@solana/web3.js": "^1.77.3",
+    "@types/node": "^20.3.1",
+    "node-fetch": "^3.3.1"
   }
 }
