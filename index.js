@@ -10,7 +10,7 @@ const {
 // Create a new keypair
 const newPair = new Keypair();
 
-// Exact the public and private key from the keypair
+// Extract the public and private key from the keypair
 const publicKey = new PublicKey(newPair._keypair.publicKey).toString();
 const privateKey = newPair._keypair.secretKey;
 
