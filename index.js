@@ -22,8 +22,6 @@ console.log("Public Key of the generated keypair", publicKey);
 // Get the wallet balance from a given private key
 const getWalletBalance = async () => {
     try {
-        // Connect to the Devnet
-        const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
         console.log("Connection object is:", connection);
 
         // Make a wallet (keypair) from privateKey and get its balance
@@ -39,8 +37,6 @@ const getWalletBalance = async () => {
 
 const airDropSol = async () => {
     try {
-        // Connect to the Devnet and make a wallet from privateKey
-        const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
         const myWallet = await Keypair.fromSecretKey(privateKey);
 
         // Request airdrop of 2 SOL to the wallet
